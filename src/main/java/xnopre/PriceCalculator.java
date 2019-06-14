@@ -2,10 +2,11 @@ package xnopre;
 
 public class PriceCalculator {
     public String calculate(int quantity, double unitPrice, int tax) {
-        double totalPrice = quantity * unitPrice;
-        double totalPriceWithTax = totalPrice * (1 + tax / 100.0);
-        double totalPriceWithTaxAndDiscount = totalPriceWithTax * (1 - getDiscountRate(totalPriceWithTax) / 100.0);
-        return round(totalPriceWithTaxAndDiscount) + " €";
+        double totalPriceRaw = quantity * unitPrice;
+        double totalPriceWithTax = totalPriceRaw * (1 + tax / 100.0);
+        int discountRate = getDiscountRate(totalPriceWithTax);
+        double totalPriceWithDiscount = totalPriceWithTax * (1 - discountRate / 100.0);
+        return round(totalPriceWithDiscount) +" €";
     }
 
     private int getDiscountRate(double totalPriceWithTax) {
@@ -19,6 +20,6 @@ public class PriceCalculator {
     }
 
     private double round(double totalPriceWithTax) {
-        return ((int) (totalPriceWithTax * 100 + 0.5)) / 100.0;
+        return (int)((totalPriceWithTax * 100)+0.5)/100.0;
     }
 }
