@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.xnopre.sample</groupId>
-  <artifactId>tdd.agile-tour-nantes.2018</artifactId>
+  <artifactId>tdd.agile-grenoble.2019</artifactId>
+  <name>tdd.agile-grenoble.2018</name>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>tdd.agile-tour-nantes.2018</name>
   <url>http://maven.apache.org</url>
 
   <properties>

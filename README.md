@@ -1,11 +1,9 @@
-# Agile Grenoble 2018 : TDD
+# Agile Grenoble 2019 : TDD
 
-Le sources "live" de ma session 
-**TDD :  la base pour faire du développement agile**
-à Agile Grenoble 2018.
+Le sources "live" de ma session *"Les bases du TDD par l'exemple"* à Agile Grenoble 2019.
 
 # Diaporama
-[Le diaporama de la session est ici.](https://docs.google.com/presentation/d/1763-z_Ag41U5o2-26hd2-gcb7RM1lXbK08JkbZX3W5U/edit?usp=sharing)
+[Le diaporama de la session est ici.](https://drive.google.com/file/d/1iG1RECVCaov0jfOq5G0TlICiCODXvcbX/view?usp=sharing)
 
 # Sujet du Kata
 
