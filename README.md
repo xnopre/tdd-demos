@@ -1,16 +1,16 @@
-# Agile Grenoble 2019 : TDD
+# Agile Day : TDD
 
-Le sources "live" de ma session *"Les bases du TDD par l'exemple"* à Agile Grenoble 2019.
+Le sources "live" de ma session *"Les bases du TDD par l'exemple"* à Agile Day 2020.
 
 # Diaporama
-[Le diaporama de la session est ici.](https://drive.google.com/file/d/1iG1RECVCaov0jfOq5G0TlICiCODXvcbX/view?usp=sharing)
+[Le diaporama de la session est ici.](https://drive.google.com/file/d/1xhztTtCa9FPcS1W94uq8fYFVavul-O_q/view?usp=sharing)
 
 # Sujet du Kata
 
 Calcul de prix :
-* HT : 3 articles à 1,21 € + 0 % ⇒ “3.63 €”
-* TTC : 3 articles à 1,21 €  + 5 % ⇒ “3.81 €”
-* TTC : 3 articles à 1,21 €  +20 % ⇒ “4.36 €”
+* HT : 3 articles à 1,21 € + 0 % → “3.63 €”
+* TTC : 3 articles à 1,21 €  + 5 % → “3.81 €”
+* TTC : 3 articles à 1,21 €  +20 % → “4.36 €”
 > → “TDC” = “Correction Pilotée par les Tests”
 
 On ajoute des réductions :
