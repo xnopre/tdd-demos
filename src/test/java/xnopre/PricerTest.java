@@ -27,14 +27,14 @@ public class PricerTest {
     }
 
     @Test
-    public void should_calculate_price_with_discount_1000() {
-        String price = pricer.calculate(5,  345, 10);
+    public void should_calculate_price_with_discount_over_1000() {
+        String price = pricer.calculate(5, 345, 10);
         assertThat(price).isEqualTo("1840.58 €");
     }
 
     @Test
-    public void should_calculate_price_with_discount_5000() {
-        String price = pricer.calculate(5,  1299, 10);
+    public void should_calculate_price_with_discount_over_5000() {
+        String price = pricer.calculate(5, 1299, 10);
         assertThat(price).isEqualTo("6787.28 €");
     }
 }

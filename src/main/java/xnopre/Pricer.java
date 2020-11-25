@@ -2,18 +2,27 @@ package xnopre;
 
 public class Pricer {
     public String calculate(int quantity, double unitPrice, int tax) {
-        double priceWithoutTax = quantity * unitPrice;
-        int discountRate = getDiscountRate(priceWithoutTax);
-        priceWithoutTax *= (1- discountRate /100.0);
-        double priceWithTax = priceWithoutTax * (1 + tax / 100.0);
+        double rawPrice = quantity * unitPrice;
+        double rawPriceWithDiscount = applyDiscount(rawPrice);
+        double priceWithTax = applyTax(tax, rawPriceWithDiscount);
         return round(priceWithTax) + " €";
     }
 
-    private int getDiscountRate(double priceWithoutTax) {
+    private double applyTax(int tax, double rawPriceWithDiscount) {
+        return rawPriceWithDiscount * (1 + tax / 100.0);
+    }
+
+    private double applyDiscount(double rawPrice) {
+        int discountRate = getDiscountRate(rawPrice);
+        double rawPriceWithDiscount = rawPrice * (1 - discountRate / 100.0);
+        return rawPriceWithDiscount;
+    }
+
+    private int getDiscountRate(double rawPrice) {
         int discountRate = 0;
-        if (priceWithoutTax > 5000) {
+        if (rawPrice >= 5000) {
             discountRate = 5;
-        } else if (priceWithoutTax > 1000) {
+        } else if (rawPrice >= 1000) {
             discountRate = 3;
         }
         return discountRate;
