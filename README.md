@@ -1,9 +1,6 @@
-# TDD - Agile Grenoble - 25/11/2020
+# TDD - KLS Logistics - 12/01/2021
 
-Le sources "live" de ma session *"Les bases du TDD par l'exemple"* à Agile Grenoble 2020.
-
-# Diaporama
-[Le diaporama de la session est ici.](https://drive.google.com/file/d/1abbRrrnl134oXtEO2-aq7AyBA-t9U08N/view?usp=sharing)
+Le sources "live" de ma session *"Les bases du TDD par l'exemple"* chez KLS Logistics.
 
 # Sujet du Kata
 
