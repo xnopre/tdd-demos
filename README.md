@@ -1,6 +1,6 @@
-# TDD - KLS Logistics - 12/01/2021
+# TDD - Ag2r La Mondiale - 02/02/2021
 
-Le sources "live" de ma session *"Les bases du TDD par l'exemple"* chez KLS Logistics.
+Le sources "live" de ma session *"Les bases du TDD par l'exemple"* chez Ag2r La Mondiale.
 
 # Sujet du Kata
 
