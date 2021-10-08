@@ -1,13 +1,11 @@
-# TDD - Agile Grenoble - 25/11/2020
+# TDD - 07/10/2021
 
-Le sources "live" de ma session *"Les bases du TDD par l'exemple"* à Agile Grenoble 2020.
+Le sources "live" de ma session *"Les bases du TDD par l'exemple"*.
 
-# Diaporama
-[Le diaporama de la session est ici.](https://drive.google.com/file/d/1abbRrrnl134oXtEO2-aq7AyBA-t9U08N/view?usp=sharing)
+# Sujets du Kata
 
-# Sujet du Kata
+## Calcul de prix
 
-Calcul de prix :
 * HT : 3 articles à 1,21 € + 0 % ⇒ “3.63 €”
 * TTC : 3 articles à 1,21 €  + 5 % ⇒ “3.81 €”
 * TTC : 3 articles à 1,21 €  +20 % ⇒ “4.36 €”
@@ -18,3 +16,8 @@ On ajoute des réductions :
   * Ex : 5 x 345,00 € + taxe 10% → “1840.58 €”
 * \> 5000 € → Remise 5% :
   * Ex : 5 x 1299,00 € + taxe 10% → “6787.28 €”
+
+## Driver et mock
+
+Un `Driver` avec une méthode `openBarrier(n)` pour ouvrir une barrière 
+en envoyant une trame "OB2" (via un `Connector`).
