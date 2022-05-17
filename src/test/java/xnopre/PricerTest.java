@@ -10,19 +10,19 @@ public class PricerTest {
 
     @Test
     public void calculate_price_without_tax() {
-        String price = pricer.caclculate(3, 1.21, 0);
+        String price = pricer.calculatePrice(3, 1.21, 0);
         assertThat(price).isEqualTo("3.63 €");
     }
 
     @Test
     public void calculate_price_with_tax() {
-        String price = pricer.caclculate(3, 1.21, 5);
+        String price = pricer.calculatePrice(3, 1.21, 5);
         assertThat(price).isEqualTo("3.81 €");
     }
 
     @Test
     public void calculate_price_with_tax_20() {
-        String price = pricer.caclculate(3, 1.21, 20);
+        String price = pricer.calculatePrice(3, 1.21, 20);
         assertThat(price).isEqualTo("4.36 €");
     }
 }
