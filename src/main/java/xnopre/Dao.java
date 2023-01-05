@@ -1,7 +1,7 @@
 package xnopre;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public interface Dao {
-    ArrayList<Integer> getData();
+    List<User> getAllUser();
 }

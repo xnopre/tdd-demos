@@ -1,6 +1,6 @@
-# TDD - 13/05/2022
+# TDD - 04/01/2023 - Ensimag
 
-Le sources "live" de ma session *"Les bases du TDD par l'exemple"* pour Groupama.
+Les sources de ma session "live" d'introduction au TDD à l'Ensimag.
 
 # Sujets du Kata
 
@@ -21,5 +21,5 @@ On ajoute des réductions :
 
 ## Driver et mock
 
-Un `Processor` possède une méthode `doJob()` qui récupère des données en base via un `Dao` et les transmets via
-une `Api`. 
+Un `Processor` possède une méthode `doJob()` qui récupère des données en base via un `Dao`
+et les transmets via une `Api`. 
